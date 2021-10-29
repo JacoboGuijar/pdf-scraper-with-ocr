@@ -15,7 +15,14 @@ Finally, once all the pages have been converted to images we can start scraping 
 
 Whenever we click on "ok" the program will load a series of preview images where we can select by clicking and draggin the information we want to keep. Every time we start clicking a red rectangle will follow the mouse until the click is released. After releasing the mouse we will be asked what is the name of the field we just selected. This name will be the name of the column where this is information is stored. After creating as many selections as we want we can click on "Extract text". Go grab a coffe, this might take a long time but after finishing a new file will appear in the folder where you are running this script. An Excel file with all the information you wanted.
 
-Here you have a demo of the process of selecting the area with a project that has a pattern of 2: [https://i.imgur.com/Pt9unky.mp4](https://i.imgur.com/Pt9unky.mp4)
+You can find a series of demos and step by step tutorials in different formats in the 'demos' folder.
+
+## Language configuration
+If your main language is not English please change the value of the 'MY_LANG' variable at the begging of the 'pdf-scraper-with-ocr.py' file to the language you need. You can find the different languages in the [Tesseract documentation](https://tesseract-ocr.github.io/tessdoc/Data-Files.html). 
+
+It should be noticed that if you want to extract an email the '@' symbol will not be detected some times. To improve the accuracy of the email detection you can add '\_email' at the end of the name selection. See:
+![](https://i.imgur.com/gughskB.png)
+This will change the language to english only for this selection, something that seems to help a lot in the email detection.
 
 ## Deleting pages
 Every PDF is different from others. They can be organized in a lot of different ways, making the automation of the pages to delete kind of a pain. Currently this are the commands supported for deleting pages:
