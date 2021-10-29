@@ -277,6 +277,8 @@ class Example(tk.Frame):
                     #cropped_image.show()
                     if self.array_crop_coords_dict[i][j]['name'].endswith('_email'):
                         texto = auxiliar_scripts.pytesseract.image_to_string(cropped_image, lang = 'eng', config = '--psm 7')
+                    if self.array_crop_coords_dict[i][j]['name'].endswith('_ML'):
+                        texto = auxiliar_scripts.pytesseract.image_to_string(cropped_image, lang = MY_LANG, config = '--psm 6') #This one seems to be the one that works best for multiple lines
                     else:
                         texto = auxiliar_scripts.pytesseract.image_to_string(cropped_image, lang = MY_LANG, config = '--psm 7')
 
