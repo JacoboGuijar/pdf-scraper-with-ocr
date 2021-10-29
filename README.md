@@ -1,7 +1,7 @@
 # pdf-scraper-with-ocr
 With this tool I am aiming to facilitate the work of those who need to scrape PDFs either by hand or using tools that doesn't implement any kind of character recognition.
 
-[![Screencast](https://github.com/JacoboGuijar/pdf-scraper-with-ocr/blob/main/demos/final_617bdd31c184d700ed0d45a5_579847%20(1).gif)](https://github.com/JacoboGuijar/pdf-scraper-with-ocr/blob/main/demos/final_617bdd31c184d700ed0d45a5_579847%20(1).gif)
+[![Screencast](https://github.com/JacoboGuijar/pdf-scraper-with-ocr/blob/main/demos/Usage%20demo.gif)](https://github.com/JacoboGuijar/pdf-scraper-with-ocr/blob/main/demos/Usage%20demo.gif)
 
 
 ## How it works
