@@ -24,7 +24,9 @@ It should be noticed that if you want to extract an email the '@' symbol will no
 
 ![](https://i.imgur.com/gughskB.png)
 
-This will change the language to english only for this selection, something that seems to help a lot in the email detection.
+This will change the language to English only for this selection, something that seems to help a lot in the email detection.
+
+Different features for different types of text will be added in the future
 
 ## Deleting pages
 Every PDF is different from others. They can be organized in a lot of different ways, making the automation of the pages to delete kind of a pain. Currently this are the commands supported for deleting pages:
