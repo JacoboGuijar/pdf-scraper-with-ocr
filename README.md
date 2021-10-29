@@ -1,6 +1,9 @@
 # pdf-scraper-with-ocr
 With this tool I am aiming to facilitate the work of those who need to scrape PDFs either by hand or using tools that doesn't implement any kind of character recognition.
 
+[![Screencast](https://github.com/JacoboGuijar/pdf-scraper-with-ocr/blob/main/demos/final_617bdd31c184d700ed0d45a5_579847%20(1).gif)](https://github.com/JacoboGuijar/pdf-scraper-with-ocr/blob/main/demos/final_617bdd31c184d700ed0d45a5_579847%20(1).gif)
+
+
 ## How it works
 When you run the program a GUI will open with four buttons. Only two of them are available for use at the begining: "Choose a PDF" and "Extract Information". We will start choosing our PDF. When the button is clicked a new window will open where we can navigate through our folders and select the PDF we want.
 
