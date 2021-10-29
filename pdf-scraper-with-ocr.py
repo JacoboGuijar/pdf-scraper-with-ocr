@@ -82,6 +82,7 @@ class Example(tk.Frame):
         self.popup = popupWindow(self)
         self.popup.validation = True
         self.popup.button['state'] = 'normal'
+        self.popup.label['text'] = 'Insert the pages you want to delete'
         self.popup.warning_label['text'] = 'If you want to delete individual pages write them separated by semicolons: 1;4;12.\nIf you want to delete pages in a range write the first and last page separated by a hyphen: 3-15.\nIf you want to delete each N pages you can write: 3x to delete one page every three pages.\n Leave the field blank if you do not want to delete any pages.'
         self.master.wait_window(self.popup.top)
 
