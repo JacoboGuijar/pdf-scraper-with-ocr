@@ -17,7 +17,9 @@ Whenever we click on "ok" the program will load a series of preview images where
 
 You can find a series of demos and step by step tutorials in different formats in the 'demos' folder.
 
-## Language configuration
+## Language configuration and field naming
+There are multiple types of texts that can be extracted. Here I will explain the different solutions to improve your text extraction.
+
 If your main language is not English please change the value of the 'MY_LANG' variable at the begging of the 'pdf-scraper-with-ocr.py' file to the language you need. You can find the different languages in the [Tesseract documentation](https://tesseract-ocr.github.io/tessdoc/Data-Files.html). 
 
 It should be noticed that if you want to extract an email the '@' symbol will not be detected some times. To improve the accuracy of the email detection you can add '\_email' at the end of the name selection. See:
@@ -25,6 +27,8 @@ It should be noticed that if you want to extract an email the '@' symbol will no
 ![](https://i.imgur.com/gughskB.png)
 
 This will change the language to English only for this selection, something that seems to help a lot in the email detection.
+
+This program is configured to analyze only one line, as you can see in the demos files. In case you need to analyze a field of text that is divided in multiple lines you should add at the end of the selection '\_ML'. This will tell the program that this specific field has multiple lines. 
 
 Different features for different types of text will be added in the future
 
