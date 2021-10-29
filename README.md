@@ -21,7 +21,9 @@ You can find a series of demos and step by step tutorials in different formats i
 If your main language is not English please change the value of the 'MY_LANG' variable at the begging of the 'pdf-scraper-with-ocr.py' file to the language you need. You can find the different languages in the [Tesseract documentation](https://tesseract-ocr.github.io/tessdoc/Data-Files.html). 
 
 It should be noticed that if you want to extract an email the '@' symbol will not be detected some times. To improve the accuracy of the email detection you can add '\_email' at the end of the name selection. See:
+
 ![](https://i.imgur.com/gughskB.png)
+
 This will change the language to english only for this selection, something that seems to help a lot in the email detection.
 
 ## Deleting pages
