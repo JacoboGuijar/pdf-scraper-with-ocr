@@ -302,7 +302,7 @@ class Example(tk.Frame):
         print(dict_array)
         
         df = pd.DataFrame(data = dict_array, columns = keys)
-        df.to_excel('test_2.xlsx')
+        df.to_excel('output.xlsx')
         progress_window.destroy()
 
         self.button5['state'] = 'normal'
