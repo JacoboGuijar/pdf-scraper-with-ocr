@@ -13,7 +13,7 @@ Finally, once all the pages have been converted to images we can start scraping 
 Whenever we click on "ok" the program will load a series of preview images where we can select by clicking and draggin the information we want to keep. Every time we start clicking a red rectangle will follow the mouse until the click is released. After releasing the mouse we will be asked what is the name of the field we just selected. This name will be the name of the column where this is information is stored. After creating as many selections as we want we can click on "Extract text". Go grab a coffe, this might take a long time but after finishing a new file will appear in the folder where you are running this script. An Excel file with all the information you wanted.
 
 ## Demo
-<video src='https://i.imgur.com/Pt9unky.mp4' width=180/>
+[![Demo CountPages alpha](https://i.imgur.com/Pt9unky.mp4)]
 
 ## Deleting pages
 Every PDF is different from others. They can be organized in a lot of different ways, making the automation of the pages to delete kind of a pain. Currently this are the commands supported for deleting pages:
