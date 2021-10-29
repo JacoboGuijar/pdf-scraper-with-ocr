@@ -1,4 +1,4 @@
-# pdf-scrapper-with-ocr
+# pdf-scraper-with-ocr
 With this tool I am aiming to facilitate the work of those who need to scrape PDFs either by hand or using tools that doesn't implement any kind of character recognition.
 
 ## How it works
