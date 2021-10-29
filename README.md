@@ -14,6 +14,7 @@ Whenever we click on "ok" the program will load a series of preview images where
 
 ## Demo
 <video src='https://i.imgur.com/Pt9unky.mp4' width=180/>
+
 ## Deleting pages
 Every PDF is different from others. They can be organized in a lot of different ways, making the automation of the pages to delete kind of a pain. Currently this are the commands supported for deleting pages:
 ### Single page deletion
