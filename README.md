@@ -55,3 +55,6 @@ Selecting to randomize the preview images can be quite helpful. Many times every
 
 ## The Undo button
 In case you clicked something by mistake, did not write correctly the name you wanted for a field or created a rectangle that later you discovered will not capture all the info you wanted there is an undo button. The Undo button will eliminate the last rectangle created. In case your PDF follows a pattern greater than 1 the undo button will delete the last rectangle created in the page you are. For example, if your PDF has a pattern of 3 and you have created two rectangles on page 1, then click on "Show image" to see the next image in your pattern (page 2) and create a rectangle there and go back to page 1 (by clicking twice on "Show image"), clicking the undo button will not delete the selection from page 2, it will delete the last created selection in the page you are at the moment of clicking.
+
+## Increase accuracy
+This program is configured is configured to create images with 400 of DPI, this is over the recommended mininum according to the Tesseract documentation. However, if you want to increase this accuracy, and increase the execution time, you can change the DPI variable at the beginning of the auxiliar_scripts.py file.
