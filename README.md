@@ -58,3 +58,6 @@ In case you clicked something by mistake, did not write correctly the name you w
 
 ## Increase accuracy
 This program is configured is configured to create images with 400 of DPI, this is over the recommended mininum according to the Tesseract documentation. However, if you want to increase this accuracy, and increase the execution time, you can change the DPI variable at the beginning of the auxiliar_scripts.py file.
+
+## Final note
+If you think this tool might help you and you want to thank me for my work, please consider using Paypal to help me pay my loans: [https://www.paypal.com/donate?hosted_button_id=4TGWFN2Y6BTZE](https://www.paypal.com/donate?hosted_button_id=4TGWFN2Y6BTZE)
