@@ -106,6 +106,7 @@ class Example(tk.Frame):
         self.popup.validation = True
         self.popup.label['text'] = 'Folder name'
         self.popup.warning_label['text'] = 'Write the name of the folder where each pdf page will be saved as an image file.\nPlease make sure there are no folders with that name.'
+        self.popup.entry.focus_set()
         self.master.wait_window(self.popup.top)
 
         progress_bar = ttk.Progressbar(self.scrollFrame.viewPort, orient = 'horizontal', mode = 'indeterminate')
@@ -155,6 +156,7 @@ class Example(tk.Frame):
         self.popup.warning_label['text'] = 'If your pdf repeats every 3 pages write: \'3\'. If your PDF follows a pattern where every page is the same write: \'1\'.'
         self.popup.optMenu.grid()
         self.popup.warning_label_2.grid()
+        self.popup.entry.focus_set()
         self.master.wait_window(self.popup.top)
 
         self.load = [] #In case we change directory the images shown won't mix
@@ -384,6 +386,7 @@ class Example(tk.Frame):
         self.array_crop_coords[self.pattern_count].append(crop_coords)
         self.popup = popupWindow(self)
         self.popup.validation = True
+        self.popup.entry.focus_set()
         self.master.wait_window(self.popup.top)
         self.array_crop_coords_dict[self.pattern_count].append({'name': self.popup.value, 'coords': self.array_crop_coords[self.pattern_count][-1]})
         print(self.array_crop_coords_dict)        
